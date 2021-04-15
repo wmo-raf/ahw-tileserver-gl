@@ -7,4 +7,4 @@
 - Create / Copy tiles to `tiles/` folder
 - Update your config.json to point to the styles and tiles as appropriate
 
-# TODO: Expound the instructions
+#### TODO: Expound the instructions
