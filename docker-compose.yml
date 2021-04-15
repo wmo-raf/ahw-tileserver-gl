@@ -3,6 +3,7 @@ version: "3.8"
 services:
   tileserver-gl:
     image: maptiler/tileserver-gl:v3.1.1
+    restart: always
     command: --port ${PORT} 
     ports:
       - ${PORT}:${PORT}
