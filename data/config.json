@@ -1,0 +1,35 @@
+{
+    "options": {
+        "paths": {
+            "root": ".",
+            "fonts": "fonts",
+            "styles": "styles",
+            "mbtiles": "tiles"
+        }
+    },
+    "styles": {
+        "basic": {
+            "style": "basic.json",
+            "tilejson": {
+                "bounds": [-180, -85.0511,
+                    180,
+                    85.0511
+                ]
+            }
+        },
+        "eahw": {
+            "style": "eahw.json",
+            "tilejson": {
+                "bounds": [-180, -85.0511,
+                    180,
+                    85.0511
+                ]
+            }
+        }
+    },
+    "data": {
+        "v3": {
+            "mbtiles": "tiles.mbtiles"
+        }
+    }
+}
