@@ -4,6 +4,7 @@
             "root": ".",
             "fonts": "fonts",
             "styles": "styles",
+            "sprites": "sprites",
             "mbtiles": "tiles"
         }
     },

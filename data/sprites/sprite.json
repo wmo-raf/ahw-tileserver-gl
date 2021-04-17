@@ -1,0 +1,37 @@
+{
+  "city-2": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 0,
+    "y": 0
+  },
+  "city-high": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 32,
+    "y": 0
+  },
+  "grass": {
+    "height": 8,
+    "pixelRatio": 1,
+    "width": 8,
+    "x": 56,
+    "y": 32
+  },
+  "locust": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 0,
+    "y": 32
+  },
+  "river-point-drop": {
+    "height": 24,
+    "pixelRatio": 1,
+    "width": 24,
+    "x": 32,
+    "y": 32
+  }
+}

@@ -1,3 +1,5 @@
+node_modules/
 data/tiles
 data/fonts
 *.mbtiles
+.DS_Store

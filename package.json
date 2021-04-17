@@ -1,0 +1,17 @@
+{
+    "name": "icpac-tileserver-gl",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/icpac-igad/icpac-tileserver-gl.git",
+    "author": "Erick Otenyo <otenyo.erick@gmail.com>",
+    "license": "MIT",
+    "engines": {
+        "node": "8.x"
+    },
+    "scripts": {
+        "generate-sprites": "spritezero ./data/sprites/sprite ./icons — ratio=1 && spritezero ./data/sprites/sprite@2x ./icons -- ratio=2"
+    },
+    "devDependencies": {
+        "@mapbox/spritezero-cli": "^2.1.0"
+    }
+}
