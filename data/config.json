@@ -26,6 +26,15 @@
                     85.0511
                 ]
             }
+        },
+        "droughtwatch": {
+            "style": "droughtwatch.json",
+            "tilejson": {
+                "bounds": [-180, -85.0511,
+                    180,
+                    85.0511
+                ]
+            }
         }
     },
     "data": {
