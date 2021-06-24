@@ -1,0 +1,46 @@
+{
+    "version": 8,
+    "name": "Dark Water",
+    "metadata": {
+        "openmaptiles:version": "3.x",
+        "mapbox:groups": {
+            "water_dark": {
+                "name": "water-dark"
+            }
+        }
+    },
+    "sources": {
+        "openmaptiles": {
+            "type": "vector",
+            "url": "mbtiles://{v3}"
+        }
+    },
+    "glyphs": "{fontstack}/{range}.pbf",
+    "sprite": "sprite",
+    "layers": [{
+        "id": "water",
+        "type": "fill",
+        "source": "openmaptiles",
+        "source-layer": "water",
+        "filter": [
+            "all", [
+                "==",
+                "$type",
+                "Polygon"
+            ],
+            [
+                "!=",
+                "brunnel",
+                "tunnel"
+            ]
+        ],
+        "layout": {
+            "visibility": "visible"
+        },
+        "paint": {
+            "fill-antialias": false,
+            "fill-color": "rgb(27 ,27 ,29)"
+        }
+    }],
+    "id": "water_dark"
+}

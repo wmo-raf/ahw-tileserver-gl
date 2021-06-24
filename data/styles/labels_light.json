@@ -1,0 +1,259 @@
+{
+    "version": 8,
+    "name": "Labels Light",
+    "metadata": {
+        "openmaptiles:version": "3.x",
+        "mapbox:groups": {
+            "labels_light": {
+                "name": "labels-light"
+            }
+        }
+    },
+    "sources": {
+        "openmaptiles": {
+            "type": "vector",
+            "url": "mbtiles://{v3}"
+        }
+    },
+    "glyphs": "{fontstack}/{range}.pbf",
+    "sprite": "sprite",
+    "layers": [{
+            "filter": [
+                "all", [
+                    "has",
+                    "iata"
+                ]
+            ],
+            "id": "airport-label",
+            "layout": {
+                "icon-size": 1,
+                "text-anchor": "top",
+                "text-field": "{name}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-max-width": 8,
+                "text-offset": [
+                    0,
+                    0.5
+                ],
+                "text-size": 11,
+                "visibility": "visible"
+            },
+            "minzoom": 10,
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-color": "rgba(0,0,0,0.75)",
+                "text-halo-width": 1
+            },
+            "source": "openmaptiles",
+            "source-layer": "aerodrome_label",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "labels_light"
+            }
+        },
+        {
+            "filter": [
+                "all", [
+                    "==",
+                    "$type",
+                    "Point"
+                ],
+                [
+                    "!in",
+                    "class",
+                    "city",
+                    "state",
+                    "country",
+                    "continent"
+                ]
+            ],
+            "id": "place_label_other",
+            "layout": {
+                "text-anchor": "center",
+                "text-field": "{name}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-max-width": 6,
+                "text-size": {
+                    "stops": [
+                        [
+                            6,
+                            10
+                        ],
+                        [
+                            12,
+                            14
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "minzoom": 8,
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-color": "rgba(0, 0, 0, 0.75)",
+                "text-halo-width": 1
+            },
+            "source": "openmaptiles",
+            "source-layer": "place",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "labels_light"
+            }
+        },
+        {
+            "filter": [
+                "all", [
+                    "==",
+                    "$type",
+                    "Point"
+                ],
+                [
+                    "==",
+                    "class",
+                    "city"
+                ]
+            ],
+            "id": "place_label_city",
+            "layout": {
+                "text-field": "{name:latin}\n{name:nonlatin}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-max-width": 10,
+                "text-size": {
+                    "stops": [
+                        [
+                            3,
+                            12
+                        ],
+                        [
+                            8,
+                            16
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "maxzoom": 16,
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-color": "rgba(0,0,0,0.75)",
+                "text-halo-width": 1
+            },
+            "source": "openmaptiles",
+            "source-layer": "place",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "labels_light"
+            }
+        },
+        {
+            "filter": [
+                "all", [
+                    "==",
+                    "$type",
+                    "Point"
+                ],
+                [
+                    "==",
+                    "class",
+                    "country"
+                ],
+                [
+                    "!has",
+                    "iso_a2"
+                ]
+            ],
+            "id": "country_label-other",
+            "layout": {
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-max-width": 10,
+                "text-size": {
+                    "stops": [
+                        [
+                            3,
+                            12
+                        ],
+                        [
+                            8,
+                            22
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "maxzoom": 12,
+            "paint": {
+                "text-color": "#fff",
+                "text-halo-color": "rgba(0,0,0,0.75)",
+                "text-halo-width": 1
+            },
+            "source": "openmaptiles",
+            "source-layer": "place",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "labels_light"
+            }
+        },
+        {
+            "filter": [
+                "all", [
+                    "==",
+                    "$type",
+                    "Point"
+                ],
+                [
+                    "==",
+                    "class",
+                    "country"
+                ],
+                [
+                    "has",
+                    "iso_a2"
+                ]
+            ],
+            "id": "country_label",
+            "layout": {
+                "text-field": "{name:latin}",
+                "text-font": [
+                    "Noto Sans Regular"
+                ],
+                "text-max-width": 10,
+                "text-size": {
+                    "base": 1,
+                    "stops": [
+                        [
+                            1,
+                            10
+                        ],
+                        [
+                            6,
+                            24
+                        ]
+                    ]
+                },
+                "visibility": "visible"
+            },
+            "maxzoom": 12,
+            "paint": {
+                "text-halo-width": 1.3,
+                "text-halo-color": "rgba(0, 0, 0, 0.75)",
+                "text-color": "#fff"
+            },
+            "source": "openmaptiles",
+            "source-layer": "place",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:group": "labels_light"
+            }
+        }
+    ],
+    "id": "labels_light"
+}
