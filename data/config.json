@@ -80,6 +80,24 @@
                     85.0511
                 ]
             }
+        },
+        "blank_bg": {
+            "style": "blank_bg.json",
+            "tilejson": {
+                "bounds": [-180, -85.0511,
+                    180,
+                    85.0511
+                ]
+            }
+        },
+        "labels_country": {
+            "style": "labels_country.json",
+            "tilejson": {
+                "bounds": [-180, -85.0511,
+                    180,
+                    85.0511
+                ]
+            }
         }
     },
     "data": {

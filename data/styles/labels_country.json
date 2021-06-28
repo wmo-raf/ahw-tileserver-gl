@@ -1,0 +1,77 @@
+{
+    "version": 8,
+    "name": "Labels COuntry",
+    "metadata": {
+        "openmaptiles:version": "3.x"
+    },
+    "sources": {
+        "openmaptiles": {
+            "type": "vector",
+            "url": "mbtiles://{v3}"
+        }
+    },
+    "glyphs": "{fontstack}/{range}.pbf",
+    "sprite": "sprite",
+    "layers": [{
+        "filter": [
+            "all", [
+                "==",
+                "$type",
+                "Point"
+            ],
+            [
+                "==",
+                "class",
+                "country"
+            ],
+            [
+                "has",
+                "iso_a2"
+            ]
+        ],
+        "id": "country_label",
+        "layout": {
+            "text-field": "{name:latin}",
+            "text-font": [
+                "Noto Sans Regular"
+            ],
+            "text-max-width": 10,
+            "text-size": {
+                "base": 1,
+                "stops": [
+                    [
+                        1,
+                        10
+                    ],
+                    [
+                        6,
+                        24
+                    ]
+                ]
+            }
+        },
+        "maxzoom": 12,
+        "paint": {
+            "text-halo-width": 1.25,
+            "text-halo-color": {
+                "base": 1,
+                "stops": [
+                    [
+                        2,
+                        "rgba(255,255,255,0.75)"
+                    ],
+                    [
+                        3,
+                        "#fff"
+                    ]
+                ]
+            },
+            "text-color": "hsl(0, 0%, 0%)",
+            "text-opacity": 0.7
+        },
+        "source": "openmaptiles",
+        "source-layer": "place",
+        "type": "symbol"
+    }],
+    "id": "labels_country"
+}

@@ -1,0 +1,43 @@
+{
+    "version": 8,
+    "name": "Blank",
+    "metadata": {
+        "openmaptiles:version": "3.x"
+    },
+    "sources": {
+        "openmaptiles": {
+            "type": "vector",
+            "url": "mbtiles://{v3}"
+        }
+    },
+    "layers": [{
+            "id": "background-light",
+            "paint": {
+                "background-color": "hsl(0, 0%, 100%)"
+            },
+            "type": "background"
+        },
+        {
+            "filter": [
+                "all", [
+                    "==",
+                    "$type",
+                    "Polygon"
+                ],
+                [
+                    "!=",
+                    "intermittent",
+                    1
+                ]
+            ],
+            "id": "water",
+            "paint": {
+                "fill-color": "hsl(203, 95%, 84%)"
+            },
+            "source": "openmaptiles",
+            "source-layer": "water",
+            "type": "fill"
+        }
+    ],
+    "id": "blank"
+}
