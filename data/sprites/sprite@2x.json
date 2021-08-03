@@ -6,116 +6,123 @@
     "x": 0,
     "y": 0
   },
-  "airport-major": {
+  "airport-1": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
     "x": 64,
     "y": 0
   },
-  "bag": {
+  "airport-major": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
     "x": 0,
+    "y": 64
+  },
+  "bag": {
+    "height": 64,
+    "pixelRatio": 2,
+    "width": 64,
+    "x": 64,
     "y": 64
   },
   "bag2": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 64,
-    "y": 64
+    "x": 128,
+    "y": 0
   },
   "city-2": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 128,
+    "x": 192,
     "y": 0
   },
   "city-high": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 192,
-    "y": 0
+    "x": 128,
+    "y": 64
   },
   "dam": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 128,
+    "x": 192,
     "y": 64
   },
   "electric-tower": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 192,
-    "y": 64
+    "x": 0,
+    "y": 128
   },
   "grass": {
     "height": 16,
     "pixelRatio": 2,
     "width": 16,
-    "x": 240,
-    "y": 192
+    "x": 304,
+    "y": 0
   },
   "hospital-1": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 0,
+    "x": 64,
     "y": 128
   },
   "idp-camp": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 64,
+    "x": 128,
     "y": 128
   },
   "locust": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 128,
+    "x": 192,
     "y": 128
   },
   "no-data": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
-    "x": 192,
-    "y": 128
-  },
-  "river-point-danger": {
-    "height": 64,
-    "pixelRatio": 2,
-    "width": 64,
     "x": 0,
     "y": 192
   },
-  "river-point-drop": {
-    "height": 48,
-    "pixelRatio": 2,
-    "width": 48,
-    "x": 192,
-    "y": 192
-  },
-  "river-point-normal": {
+  "river-point-danger": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
     "x": 64,
     "y": 192
   },
-  "urb": {
+  "river-point-drop": {
+    "height": 48,
+    "pixelRatio": 2,
+    "width": 48,
+    "x": 256,
+    "y": 0
+  },
+  "river-point-normal": {
     "height": 64,
     "pixelRatio": 2,
     "width": 64,
     "x": 128,
+    "y": 192
+  },
+  "urb": {
+    "height": 64,
+    "pixelRatio": 2,
+    "width": 64,
+    "x": 192,
     "y": 192
   }
 }
