@@ -62,67 +62,123 @@
     "x": 0,
     "y": 64
   },
+  "famine": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 32,
+    "y": 64
+  },
   "grass": {
     "height": 8,
     "pixelRatio": 1,
     "width": 8,
     "x": 152,
-    "y": 0
+    "y": 64
   },
   "hospital-1": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
-    "x": 32,
+    "x": 64,
     "y": 64
   },
   "idp-camp": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
-    "x": 64,
-    "y": 64
-  },
-  "locust": {
-    "height": 32,
-    "pixelRatio": 1,
-    "width": 32,
     "x": 96,
     "y": 64
   },
-  "no-data": {
+  "idp-camp1": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 0,
     "y": 96
   },
-  "river-point-danger": {
+  "idp-camp2": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 32,
     "y": 96
   },
-  "river-point-drop": {
-    "height": 24,
-    "pixelRatio": 1,
-    "width": 24,
-    "x": 128,
-    "y": 0
-  },
-  "river-point-normal": {
+  "idp-camp3": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 64,
     "y": 96
   },
-  "urb": {
+  "idp-camp4": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 96,
     "y": 96
+  },
+  "idp-camp5": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 128,
+    "y": 0
+  },
+  "locust": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 160,
+    "y": 0
+  },
+  "no-data": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 192,
+    "y": 0
+  },
+  "river-point-c": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 224,
+    "y": 0
+  },
+  "river-point-d": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 128,
+    "y": 32
+  },
+  "river-point-danger": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 160,
+    "y": 32
+  },
+  "river-point-drop": {
+    "height": 24,
+    "pixelRatio": 1,
+    "width": 24,
+    "x": 128,
+    "y": 64
+  },
+  "river-point-normal": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 192,
+    "y": 32
+  },
+  "urb": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 224,
+    "y": 32
   }
 }
