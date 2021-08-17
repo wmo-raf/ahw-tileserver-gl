@@ -73,8 +73,8 @@
     "height": 8,
     "pixelRatio": 1,
     "width": 8,
-    "x": 152,
-    "y": 64
+    "x": 240,
+    "y": 0
   },
   "hospital-1": {
     "height": 32,
@@ -139,46 +139,53 @@
     "x": 192,
     "y": 0
   },
-  "river-point-c": {
+  "pushpin": {
     "height": 32,
     "pixelRatio": 1,
-    "width": 32,
+    "width": 16,
     "x": 224,
     "y": 0
   },
-  "river-point-d": {
+  "river-point-c": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 128,
     "y": 32
   },
-  "river-point-danger": {
+  "river-point-d": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 160,
     "y": 32
   },
-  "river-point-drop": {
-    "height": 24,
-    "pixelRatio": 1,
-    "width": 24,
-    "x": 128,
-    "y": 64
-  },
-  "river-point-normal": {
+  "river-point-danger": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 192,
     "y": 32
   },
-  "urb": {
+  "river-point-drop": {
+    "height": 24,
+    "pixelRatio": 1,
+    "width": 24,
+    "x": 160,
+    "y": 64
+  },
+  "river-point-normal": {
     "height": 32,
     "pixelRatio": 1,
     "width": 32,
     "x": 224,
     "y": 32
+  },
+  "urb": {
+    "height": 32,
+    "pixelRatio": 1,
+    "width": 32,
+    "x": 128,
+    "y": 64
   }
 }
