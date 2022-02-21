@@ -4,7 +4,7 @@ services:
   tileserver-gl:
     image: maptiler/tileserver-gl:v3.1.1
     restart: always
-    command: --port ${PORT} 
+    command: --port ${PORT} --public_url ${PUBLIC_URL}
     ports:
       - ${PORT}:${PORT}
     volumes:
