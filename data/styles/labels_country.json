@@ -31,7 +31,7 @@
         ],
         "id": "country_label",
         "layout": {
-            "text-field": "{name:latin}",
+            "text-field": "{name_en}",
             "text-font": [
                 "Noto Sans Regular"
             ],

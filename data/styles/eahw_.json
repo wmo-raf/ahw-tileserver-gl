@@ -671,7 +671,7 @@
             ],
             "id": "place_label_city",
             "layout": {
-                "text-field": "{name:latin}\n{name:nonlatin}",
+                "text-field": "{name_en}",
                 "text-font": [
                     "Noto Sans Regular"
                 ],
@@ -720,7 +720,7 @@
             ],
             "id": "country_label-other",
             "layout": {
-                "text-field": "{name:latin}",
+                "text-field": "{name_en}",
                 "text-font": [
                     "Noto Sans Regular"
                 ],
@@ -769,7 +769,7 @@
             ],
             "id": "country_label",
             "layout": {
-                "text-field": "{name:latin}",
+                "text-field": "{name_en}",
                 "text-font": [
                     "Noto Sans Regular"
                 ],
