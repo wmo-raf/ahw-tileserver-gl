@@ -3,3 +3,4 @@ data/tiles
 data/fonts
 *.mbtiles
 .DS_Store
+.env
