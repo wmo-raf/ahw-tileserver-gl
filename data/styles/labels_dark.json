@@ -121,7 +121,7 @@
             ],
             "id": "place_label_city",
             "layout": {
-                "text-field": "name_en",
+                "text-field": "{name_en}",
                 "text-font": [
                     "Noto Sans Regular"
                 ],
