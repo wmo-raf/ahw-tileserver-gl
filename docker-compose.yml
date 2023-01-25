@@ -3,9 +3,14 @@ version: "3.8"
 services:
   tileserver-gl:
     image: maptiler/tileserver-gl:v3.1.1
-    restart: always
+    restart: ${RESTART_POLICY}
     command: --port ${PORT} --public_url ${PUBLIC_URL}
     ports:
       - ${PORT}:${PORT}
     volumes:
       - ./data:/data
+
+networks:
+    default:
+      name:  ${AHW_DOCKER_NETWORK}
+      external: true
