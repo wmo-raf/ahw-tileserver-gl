@@ -1,15 +1,17 @@
 version: "3.8"
 
 services:
-  tileserver-gl:
+  ahw_tileserver_gl:
     image: maptiler/tileserver-gl:v3.1.1
+    container_name: ahw_tileserver_gl
     restart: ${RESTART_POLICY}
     command: --port ${PORT} --public_url ${PUBLIC_URL}
     ports:
       - ${PORT}:${PORT}
     volumes:
       - ./data:/data
-
+      - ${DATA_TILES_VOLUME}:/data/tiles
+      - ${FONTS_VOLUME}:/data/fonts
 networks:
     default:
       name:  ${AHW_DOCKER_NETWORK}
