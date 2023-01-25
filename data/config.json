@@ -36,8 +36,8 @@
                 ]
             }
         },
-        "eahw": {
-            "style": "eahw.json",
+        "ahw": {
+            "style": "ahw.json",
             "tilejson": {
                 "bounds": [-180, -85.0511,
                     180,
@@ -45,8 +45,8 @@
                 ]
             }
         },
-        "droughtwatch": {
-            "style": "droughtwatch.json",
+        "basemap_with_labels": {
+            "style": "basemap_with_labels.json",
             "tilejson": {
                 "bounds": [-180, -85.0511,
                     180,
@@ -65,15 +65,6 @@
         },
         "labels_dark": {
             "style": "labels_dark.json",
-            "tilejson": {
-                "bounds": [-180, -85.0511,
-                    180,
-                    85.0511
-                ]
-            }
-        },
-        "ea_boundaries": {
-            "style": "ea_boundaries.json",
             "tilejson": {
                 "bounds": [-180, -85.0511,
                     180,
