@@ -5,9 +5,9 @@ services:
     image: maptiler/tileserver-gl:v3.1.1
     container_name: ahw_tileserver_gl
     restart: ${RESTART_POLICY}
-    command: --port ${PORT} --public_url ${PUBLIC_URL}
+    command: --port 3000 --public_url ${PUBLIC_URL}
     ports:
-      - ${PORT}:${PORT}
+      - 3000
     volumes:
       - ./data:/data
       - ${DATA_TILES_VOLUME}:/data/tiles
