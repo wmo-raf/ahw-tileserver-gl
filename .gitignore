@@ -1,6 +1,6 @@
 node_modules/
 data/tiles
-data/fonts
+data/fonts*
 *.mbtiles
 .DS_Store
 .env
