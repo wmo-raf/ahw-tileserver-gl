@@ -10,6 +10,8 @@
             "url": "mbtiles://{v3}"
         }
     },
+    "glyphs": "{fontstack}/{range}.pbf",
+    "sprite": "sprite",
     "layers": [{
             "id": "background-light",
             "paint": {
